@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Library E-Publishing — بوابة النشر الإلكتروني</title>
+  <meta name="description" content="مركز موارد عربي عن النشر الإلكتروني: مقالات، دوريات، دور نشر، ملفات، وسائط، وQR شخصي." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="container-inner">
+      <a class="brand" href="#hero">
+        <div class="logo-ico">📚</div>
+        <div class="brand-text">
+          <h1>Library E-Publishing</h1>
+          <small>النشر الإلكتروني — موارد عربية وعالمية</small>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <a href="#articles">مقالات</a>
+        <a href="#publishers">دور نشر</a>
+        <a href="#journals">دوريات</a>
+        <a href="#media">وسائط</a>
+        <a href="#files">ملفات</a>
+        <a href="#qr">بطاقة</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+
+      <button id="menuToggle" class="hamburger" aria-label="قائمة">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-inner container-inner">
+      <div class="hero-text">
+        <h2>النشر الإلكتروني: بوابة الوصول إلى المعرفة</h2>
+        <p>دليل عملي وموسوعة لمهتمي المكتبات والمعلومات: دوريات عربية وعالمية، أدوات نشر، ملفات تعليمية، وفيديوهات توضيحية.</p>
+        <div class="hero-ctas">
+          <a class="btn primary" href="#articles">ابدأ بالمقالات</a>
+          <a class="btn" href="#publishers">استكشف دور النشر</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="card hero-card">
+          <img src="Plain Text QR Code.png" alt="QR شخصي" id="heroQR" class="qr-hero" />
+          <h4>عبدالإله عبدالمغني</h4>
+          <p class="muted">طالب — جامعة صنعاء • قسم المكتبات والمعلومات • المستوى الرابع</p>
+          <a class="btn ghost" id="openCardBtn">عرض البطاقة</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <!-- ARTICLES -->
+    <section id="articles" class="section card-section">
+      <div class="section-head">
+        <h3>مقالات مميزة</h3>
+        <div class="search-row">
+          <input id="searchInput" placeholder="ابحث عن مقال أو كلمة..." />
+        </div>
+      </div>
+      <div class="cards-grid" id="articlesGrid"></div>
+    </section>
+
+    <!-- PUBLISHERS -->
+    <section id="publishers" class="section">
+      <h3 class="section-title">دور نشر وقواعد بيانات — عربية وعالمية</h3>
+      <div class="cards-grid" id="publishersGrid"></div>
+    </section>
+
+    <!-- JOURNALS -->
+    <section id="journals" class="section">
+      <h3 class="section-title">دوريات ومجلات مهمة</h3>
+      <div class="cards-grid" id="journalsGrid"></div>
+    </section>
+
+    <!-- MEDIA -->
+    <section id="media" class="section">
+      <h3 class="section-title">وسائط تعليمية (فيديو وصوت)</h3>
+      <div class="media-grid">
+        <div class="media-card card">
+          <h4>فيديو تعريفي — Electronic Publishing</h4>
+          <div class="embed">
+            <iframe src="https://www.youtube.com/embed/0-dTLubmufE" title="Electronic Publishing" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="media-card card">
+          <h4>فيديو عربي — التحول الرقمي في المكتبات</h4>
+          <div class="embed">
+            <iframe src="مزايا النشر الإلكتروني - Advantages of Electronic Publishing(360P).mp4" title="التحول الرقمي" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="media-card card">
+          <h4>بودكاست نموذجي (مثال)</h4>
+          <audio controls>
+            <source src="تقرير حول إدارة النشر الالكتروني(MP3_160K).mp3" type="audio/mpeg" />
+            جهازك لا يدعم تشغيل الصوت.
+          </audio>
+        </div>
+      </div>
+    </section>
+
+    <!-- FILES -->
+    <section id="files" class="section">
+      <h3 class="section-title">ملفات وإرشادات</h3>
+      <div class="files-grid card">
+        <a class="file" href="https://platform.almanhal.com/Files/2/104837" target="_blank">النشر الإلكتروني: المفهوم والتحديات — AlManhal (PDF)</a>
+        <a class="file" href="https://www.loc.gov/static/collections/chronicling-america/guide/pdf/guide.pdf" target="_blank">دليل مكتبة الكونغرس (PDF)</a>
+        <a class="file" href="https://link.springer.com/article/10.1007/s12109-020-09737-8" target="_blank">The Future of Electronic Publishing — Springer</a>
+      </div>
+    </section>
+
+    <!-- QR / CARD -->
+    <section id="qr" class="section card-section">
+      <h3 class="section-title">بطاقة الطالب / QR</h3>
+      <div class="card-grid">
+        <div class="card profile-card">
+          <img src="Plain Text QR Code.png" alt="QR شخصي" class="qr-big" id="qrImg" />
+          <h4>الاسم: عبدالاله عبدالمغني</h4>
+          <p class="muted">طالب — جامعة صنعاء • كلية الآداب والعلوم الإنسانية — قسم المكتبات وعلم المعلومات • المستوى: الرابع</p>
+          <div class="card-actions">
+            <a class="btn ghost" id="downloadQR" download="qr-abdelilah.png">تحميل رمز QR</a>
+            <a class="btn" href="card.html" target="_blank">عرض البطاقة المفصّلة</a>
+          </div>
+        </div>
+        <div class="card tips-card">
+          <h4>نصائح استخدام QR</h4>
+          <ul>
+            <li>يمكن أن يحوي QR نصًا أو رابطًا لصفحة البطاقة (card.html).</li>
+            <li>حافظ على وضوح الصورة وحجمها عند الطباعة.</li>
+            <li>يمكنك تعديل النص داخل script.js إن أردت تغيير البيانات المشفرة.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h3 class="section-title">تواصل معنا</h3>
+      <div class="contact-grid card">
+        <div>
+          <h4>البريد الإلكتروني</h4>
+          <p><a href="mailto:akak21735@gmail.com">akak21735@gmail.com</a></p>
+        </div>
+        <div>
+          <h4>واتساب</h4>
+          <p><a href="https://wa.me/967779432768" target="_blank">+967 779432768</a></p>
+        </div>
+      </div>
+
+      <form id="suggestForm" class="card form-card" onsubmit="return submitSuggestion(event)">
+        <h4>اقترح مصدرًا أو مقالًا</h4>
+        <input id="sName" placeholder="اسمك (اختياري)" />
+        <input id="sTitle" placeholder="عنوان المقال/المصدر" required />
+        <input id="sUrl" placeholder="رابط المصدر (URL)" required />
+        <textarea id="sNote" placeholder="ملاحظة (مثلاً: لماذا مهم؟)"></textarea>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn primary" type="submit">أرسل الاقتراح</button>
+          <button class="btn ghost" type="reset">إعادة</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      © 2025 — Library E-Publishing — جميع الحقوق محفوظة • تصميم صفحة هبوط متعددة الأقسام
+    </footer>
+  </main>
+
+  <!-- Modal article -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-dialog">
+      <button class="modal-close" onclick="closeModal()">✖</button>
+      <h2 id="modalTitle">...</h2>
+      <p id="modalMeta" class="muted"></p>
+      <div id="modalBody"></div>
+      <div style="margin-top:12px"><a id="modalSource" class="btn ghost" target="_blank">مصدر خارجي</a></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
