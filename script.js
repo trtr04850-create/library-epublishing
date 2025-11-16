@@ -4,12 +4,12 @@ const ARTICLES = [
 ];
 
 const PUBLISHERS = [
-  { id:'p_dar', name:'دار المنظومة', logo:'https://upload.wikimedia.org/wikipedia/commons/4/47/Dar_almandumah_logo.png', url:'https://www.daralmandumah.com', type:'قاعدة بيانات', desc:'أكبر قاعدة بيانات عربية للأبحاث والمجلات.'},
-  { id:'p_almanhal', name:'المنهل (AlManhal)', logo:'https://www.almanhal.com/assets/images/logo-ar.png', url:'https://www.almanhal.com', type:'منصة كتب ودوريات', desc:'منصة إلكترونية للنشر والكتب العربية.'},
-  { id:'p_marefa', name:'معرفة — Marefa', logo:'https://www.marefa.org/images/logo-m.png', url:'https://www.marefa.org', type:'منصة معرفية', desc:'موسوعة ومكتبة إلكترونية عربية.'},
-  { id:'p_springer', name:'Springer', logo:'https://upload.wikimedia.org/wikipedia/commons/4/4a/Springer_Corporate_Logo.png', url:'https://link.springer.com', type:'دار نشر', desc:'دار نشر أكاديمية عالمية.'},
-  { id:'p_elsevier', name:'Elsevier / Scopus', logo:'https://upload.wikimedia.org/wikipedia/commons/4/4a/Elsevier_logo.png', url:'https://www.scopus.com', type:'قاعدة بيانات', desc:'قاعدة بحثية ودور نشر عالمية.'},
-  { id:'p_wiley', name:'Wiley', logo:'https://upload.wikimedia.org/wikipedia/commons/2/20/Wiley_logo.png', url:'https://onlinelibrary.wiley.com', type:'دار نشر', desc:'منصّة دوريات وكتب علمية.'}
+  { id:'p_dar', name:'دار المنظومة', logo:'Screenshot_٢٠٢٥١١١٦_١٨١٠٥٦_Lite.jpg', url:'https://www.daralmandumah.com', type:'قاعدة بيانات', desc:'أكبر قاعدة بيانات عربية للأبحاث والمجلات.'},
+  { id:'p_almanhal', name:'المنهل (AlManhal)', logo:'logo-default-ar.png', url:'https://www.almanhal.com', type:'منصة كتب ودوريات', desc:'منصة إلكترونية للنشر والكتب العربية.'},
+  { id:'p_marefa', name:'معرفة — Marefa', logo:'Screenshot_٢٠٢٥١١١٦_١٨٢٩١٤_Chrome.jpg', url:'https://emarefa.net/ar/', type:'منصة معرفية', desc:'موسوعة ومكتبة إلكترونية عربية.'},
+  { id:'p_springer', name:'Springer', logo:'Screenshot_٢٠٢٥١١١٦_١٨٢٨٠٧_Chrome.jpg', url:'https://link.springer.com', type:'دار نشر', desc:'دار نشر أكاديمية عالمية.'},
+  { id:'p_elsevier', name:'Elsevier / Scopus', logo:'Screenshot-2019-12-12-at-14.29.03.png', url:'https://www.scopus.com', type:'قاعدة بيانات', desc:'قاعدة بحثية ودور نشر عالمية.'},
+  { id:'p_wiley', name:'Wiley', logo:'mobilehublogo.png', url:'https://onlinelibrary.wiley.com', type:'دار نشر', desc:'منصّة دوريات وكتب علمية.'}
 ];
 
 // render publishers
